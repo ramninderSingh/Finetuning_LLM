@@ -1,0 +1,11 @@
+torch==2.6.0
+transformers==4.49.0
+peft==0.14.0
+bitsandbytes==0.45.3
+datasets==3.3.2
+accelerate==1.4.0
+trl==0.15.1
+wandb==0.19.8
+sentencepiece==0.2.0
+scipy==1.15.2
+einops==0.8.1
