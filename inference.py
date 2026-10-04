@@ -59,7 +59,7 @@ def generate(model, tokenizer, instruction: str, input_text: str = "", max_new_t
         )
 
     response = tokenizer.decode(outputs[0], skip_special_tokens=True)
-    # Extract only the response part
+    # Extract only response part
     response = response.split("### Response:")[-1].strip()
     return response
 

@@ -206,7 +206,7 @@ def train():
         args=training_args,
         max_seq_length=config.max_seq_length,
         dataset_text_field="text",
-        packing=True,                       # Pack multiple samples into one sequence
+        packing=True,                       
     )
 
     logger.info("Starting QLoRA fine-tuning...")
