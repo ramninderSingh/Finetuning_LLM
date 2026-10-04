@@ -2,8 +2,6 @@
 
 A practical implementation of parameter-efficient fine-tuning for Hugging Face causal language models using **QLoRA**, combining 4-bit NF4 quantization with LoRA adapters. The project demonstrates how to fine-tune a 2.7B parameter language model with substantially lower GPU memory requirements than conventional full-parameter fine-tuning.
 
-[Open in Google Colab](https://colab.research.google.com/github/keziyakurian13-rgb/llm-finetuning-qlora/blob/main/QLoRA_Finetuning_Colab.ipynb)
-
 ## Project Overview
 
 Fine-tuning large language models can require significant GPU memory because the model weights, gradients, optimizer states, and activations must be stored during training.
